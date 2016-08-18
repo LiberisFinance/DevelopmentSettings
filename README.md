@@ -1,12 +1,12 @@
 ## Templates
 
-### `ate`
+### ate
 
 ```csharp
 Assert.That($Actual$, Is.EqualTo($Expected$));
 ```
 
-### `given`
+### given
 
 ```csharp
 [OneTimeSetUp]
@@ -15,7 +15,7 @@ public void Given$What$() {
 }
 ```
 
-### `kill`
+### kill
 
 ```csharp
 [OneTimeTearDown]
@@ -24,7 +24,7 @@ public void Kill() {
 }
 ```
 
-### `msr`
+### msr
 
 ```csharp
 $Mock$
@@ -32,7 +32,7 @@ $Mock$
 	.Returns($Value$);
 ```
 
-### `then`
+### then
 
 ```csharp
 [Test]
@@ -41,13 +41,13 @@ public void Then$What$() {
 }
 ```
 
-### `vrf`
+### vrf
 
 ```csharp
 $Mock$.Verify(x => x.$Method$);
 ```
 
-### `when`
+### when
 
 ```csharp
 [SetUp]
